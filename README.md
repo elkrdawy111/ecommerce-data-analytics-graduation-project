@@ -208,10 +208,10 @@ The dashboard is organized into **5 pages**, each answering a different business
 ### Dashboard Previews
 
 <div align="center">
-  <img src="Photo/POWER BI IMG/Home Page.png" alt="Home Page" width="800" style="margin-bottom: 20px;"/>
-  <img src="Dashboard/Sales_Overview.png" alt="Sales Overview" width="800" style="margin-bottom: 20px;"/>
-  <img src="Dashboard/Customer_Analytics.png" alt="Customer Analytics" width="800" style="margin-bottom: 20px;"/>
-  <img src="Dashboard/Product_Profitability.png" alt="Product Profitability" width="800" style="margin-bottom: 20px;"/>
+  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-1.png?raw=true" alt="Home Page" width="800" style="margin-bottom: 20px;"/>
+  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-2.png?raw=true" alt="Sales Overview" width="800" style="margin-bottom: 20px;"/>
+  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-3.png?raw=true" alt="Customer Analytics" width="800" style="margin-bottom: 20px;"/>
+  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-4.png?raw=true" alt="Product Profitability" width="800" style="margin-bottom: 20px;"/>
   <img src="Dashboard/Shipping_Payments.png" alt="Shipping Payments" width="800"/>
 </div>
 
@@ -222,7 +222,7 @@ The dashboard is organized into **5 pages**, each answering a different business
 Complementing the Power BI suite is an interactive **Excel Dashboard**, allowing stakeholders to filter and review sales volumes and demographic summaries natively through Slicers and Pivot Tables.
 
 <div align="center">
-  <img src="Photo/Dashboard/Screenshot 2026-08-25 181616.png" alt="Excel Dashboard Overview" width="800"/>
+  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/EXCEL-DASHBOARD.png?raw=true" alt="Excel Dashboard Overview" width="800"/>
 </div>
 
 <br>
