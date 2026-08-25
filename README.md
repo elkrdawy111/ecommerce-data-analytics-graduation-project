@@ -208,12 +208,20 @@ The dashboard is organized into **5 pages**, each answering a different business
 ### Dashboard Previews
 
 <div align="center">
-  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-1.png?raw=true" alt="Home Page" width="800" style="margin-bottom: 20px;"/>
-  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-2.png?raw=true" alt="Sales Overview" width="800" style="margin-bottom: 20px;"/>
-  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-3.png?raw=true" alt="Customer Analytics" width="800" style="margin-bottom: 20px;"/>
-  <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-4.png?raw=true" alt="Product Profitability" width="800" style="margin-bottom: 20px;"/>
-  <img src="Dashboard/Shipping_Payments.png" alt="Shipping Payments" width="800"/>
+  <a href="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-1.png?raw=true">
+    <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-1.png?raw=true" alt="Home Page" width="24%" style="margin: 2px;"/>
+  </a>
+  <a href="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-2.png?raw=true">
+    <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-2.png?raw=true" alt="Sales Overview" width="24%" style="margin: 2px;"/>
+  </a>
+  <a href="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-3.png?raw=true">
+    <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-3.png?raw=true" alt="Customer Analytics" width="24%" style="margin: 2px;"/>
+  </a>
+  <a href="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-4.png?raw=true">
+    <img src="https://github.com/elkrdawy111/ecommerce-data-analytics-graduation-project/blob/main/Photo&Icon/POWERBI-DASHBOARD-4.png?raw=true" alt="Product Profitability" width="24%" style="margin: 2px;"/>
+  </a>
 </div>
+
 
 <br>
 
