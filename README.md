@@ -2,8 +2,7 @@
 ### E-Commerce Data Analytics — Graduation Project
 
 <div align="center">
-# ✦ AURA ✦
-### E-Commerce Data Analytics — Graduation Project
+
 <img src="https://img.shields.io/badge/-SQL%20Server-d5ad5d?style=for-the-badge&logo=microsoftsqlserver&logoColor=white&labelColor=17100a" alt="SQL Server" />
 <img src="https://img.shields.io/badge/-Python-b88a3b?style=for-the-badge&logo=python&logoColor=white&labelColor=17100a" alt="Python" />
 <img src="https://img.shields.io/badge/-Excel-8c672d?style=for-the-badge&logo=microsoftexcel&logoColor=white&labelColor=17100a" alt="Excel" />
