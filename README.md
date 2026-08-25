@@ -127,7 +127,8 @@ AURA-ecommerce-analytics/
 **[Your Name]**
 Graduation Project — Data Creation, Analysis & Visualization
 
-<div align="center">
-<img src="https://img.shields.io/badge/LinkedIn-Connect-d5ad5d?style=for-the-badge&labelColor=17100a" />
+<div align="center"><a href="https://www.linkedin.com/in/mohamed-amiir11/" target="_blank">
+  <img src="https://img.shields.io/badge/LinkedIn-Connect-d5ad5d?style=for-the-badge&labelColor=17100a" />
+</a>
 <img src="https://img.shields.io/badge/Email-Contact-b88a3b?style=for-the-badge&labelColor=17100a" />
 </div>
