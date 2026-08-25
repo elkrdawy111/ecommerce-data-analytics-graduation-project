@@ -284,15 +284,12 @@ AURA-ecommerce-analytics/
 
 **Mohamed Amir Elkrdawy**  
 Graduation Project — Data Creation, Analysis & Visualization
-
 <div align="center">
   <a href="https://www.linkedin.com/in/mohamed-amiir11/">
-    <img src="https://img.shields.io/badge/-LINKED%20IN-d5ad5d?style=for-the-badge&logo=linkedin&labelColor=17100a" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-d5ad5d?style=for-the-badge&logo=linkedin&labelColor=17100a" alt="LinkedIn" />
   </a>
   <a href="https://www.kaggle.com/mohamedamiralkrdawy">
-    <img src="https://img.shields.io/badge/-KAGGLE-b88a3b?style=for-the-badge&logo=kaggle&labelColor=17100a" alt="Kaggle" />
+    <img src="https://img.shields.io/badge/Kaggle-Profile-b88a3b?style=for-the-badge&logo=kaggle&labelColor=17100a" alt="Kaggle" />
   </a>
   <a href="mailto:m.ekrdawy@gmail.com">
-    <img src="https://img.shields.io/badge/-GMAIL-8c672d?style=for-the-badge&logo=gmail&labelColor=17100a" alt="Email" />
-  </a>
-</div>
+    <img src="https://img.shields.io/badge/Email-Contact-8c672d?style=for-the-badge&logo=gmail&labelColor=17100a" alt="Email" />
