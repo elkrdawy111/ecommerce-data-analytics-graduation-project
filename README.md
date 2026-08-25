@@ -1,18 +1,25 @@
+<div align="center">
+
 # ✦ AURA ✦
 ### E-Commerce Data Analytics — Graduation Project
 
-<div align="center">
-
-<img src="https://img.shields.io/badge/-SQL%20Server-d5ad5d?style=for-the-badge&logo=microsoftsqlserver&logoColor=white&labelColor=17100a" alt="SQL Server" />
-<img src="https://img.shields.io/badge/-Python-b88a3b?style=for-the-badge&logo=python&logoColor=white&labelColor=17100a" alt="Python" />
-<img src="https://img.shields.io/badge/-Excel-8c672d?style=for-the-badge&logo=microsoftexcel&logoColor=white&labelColor=17100a" alt="Excel" />
-<img src="https://img.shields.io/badge/-Power%20BI-d5ad5d?style=for-the-badge&logo=powerbi&logoColor=white&labelColor=17100a" alt="Power BI" />
-<br>
-<img src="https://img.shields.io/badge/Status-Completed-b88a3b?style=flat-square&labelColor=0b0805" />
-<img src="https://img.shields.io/badge/Tables-14-d5ad5d?style=flat-square&labelColor=0b0805" />
-<img src="https://img.shields.io/badge/License-Educational-8c672d?style=flat-square&labelColor=0b0805" />
 </div>
+<div align="left">
 
+## 🛠️ Technologies Used
+**SQL Server**<br>
+**Python**<br>
+**Excel**<br>
+**Power BI**
+
+---
+
+## 📊 Project Information
+**Status:** Completed<br>
+**Tables:** 14<br>
+**License:** Educational
+
+</div>
 
 ## ✦ &nbsp; About the Project
 
@@ -242,6 +249,46 @@ Complementing the Power BI suite is an interactive **Excel Dashboard**, allowing
 
 <br>
 
+## ✦ &nbsp; Python Data Analysis
+
+The project includes a detailed Jupyter Notebook (`Python/ecommerce-project.ipynb`) that acts as the bridge between the raw SQL database and the final BI dashboards. 
+
+### 1. Database Connection & Data Extraction
+Using the `pyodbc` library, the notebook establishes a direct ODBC connection to the SQL Server database (`DESKTOP-UFA9267\SQLEXPRESS`). The data is extracted directly from the `VW_DASHBOARD_DATA` view into a Pandas DataFrame using `pd.read_sql`.
+
+### 2. Data Profiling & Cleaning
+The dataset undergoes structural profiling using `df.info()` and `df.describe()`. Programmatic checks are performed to ensure data integrity by verifying there are no null values (`df.isna().sum()`) or duplicate records (`df.duplicated().sum()`).
+
+### 3. Exploratory Data Analysis (EDA)
+An extensive EDA phase is conducted to understand customer demographics and purchasing behavior. Using `seaborn` and `matplotlib`, statistical distributions are mapped out, such as Kernel Density Estimate (KDE) histograms for Customer Age.
+
+### 4. Custom Visual Identity
+To maintain a premium, cohesive brand aesthetic across the entire project, the Python visualizations use customized `matplotlib.rcParams`. The plots are styled with a dark background (`#0b0805`) and gold accents (`#d5ad5d`), perfectly matching the AURA Power BI dashboard theme.
+## ✦ &nbsp; Python Data Analysis
+The project includes a detailed Jupyter Notebook (`Python/ecommerce-project.ipynb`) that acts as the bridge between the raw SQL database and the final BI dashboards. It is heavily focused on Exploratory Data Analysis (EDA) and business storytelling through data visualization.
+### 1. Database Connection & Data Extraction
+Using the `pyodbc` library, the notebook establishes a direct ODBC connection to the SQL Server database (`DESKTOP-UFA9267\SQLEXPRESS`). The data is extracted directly from the `VW_DASHBOARD_DATA` view into a Pandas DataFrame using `pd.read_sql`.
+### 2. Data Profiling & Cleaning
+The dataset undergoes structural profiling using `df.info()` and `df.describe()`. Programmatic checks are performed to ensure data integrity by verifying there are no null values (`df.isna().sum()`) or duplicate records (`df.duplicated().sum()`).
+### 3. Custom Visual Identity
+To maintain a premium, cohesive brand aesthetic across the entire project, the Python visualizations use customized `matplotlib.rcParams`. The plots are styled with a dark background (`#0b0805`), gold text/accents (`#d5ad5d`), and the `YlOrBr` (Yellow-Orange-Brown) color palette to perfectly match the AURA Power BI dashboard theme.
+### 4. Exploratory Data Analysis (EDA) & Charts
+The notebook features 11 insightful visualizations built with `seaborn` and `matplotlib`, strategically grouped to answer core business questions:
+#### A. Customer Demographics & Acquisition
+* **Histogram For Age (`sns.histplot`)**: Visualizes the age distribution of the customer base (using a Kernel Density Estimate) to identify the core purchasing demographic.
+* **Customers by Sign-Up Channel and Gender (`sns.countplot`)**: Analyzes which marketing channels (e.g., Direct, Google Ads) attract the most users and breaks them down by gender, guiding targeted ad spend.
+* **Total Orders By City (`sns.barplot`)**: Maps out geographical hotspots, identifying the cities with the strongest market penetration.
+#### B. Time-Series Trends
+* **Total Price By Date (`sns.lineplot`)**: Tracks monthly revenue fluctuations to spot seasonal trends and high-performing sales periods.
+* **Total Profit by Date (`sns.lineplot`)**: Tracks monthly profit trends, ensuring that spikes in revenue are actually translating to bottom-line success.
+#### C. Product & Brand Performance
+* **Top 10 Orders By Product (`sns.barplot`)**: Looks at pure transaction volume—identifying the most frequently purchased items.
+* **Top 10 Sales By Product (`sns.barplot`)**: Identifies the specific products generating the highest revenue.
+* **Total Sales by Category (`sns.barplot`)**: Provides a macro-level view of which departments (e.g., Clothing vs. Shoes) dominate the business.
+* **Total Profit By Brand (`sns.barplot`)**: Crucial for vendor management, showing which brands offer the best margins and contribute the most to actual profit.
+#### D. Operations & Payments
+* **Order Status (`plt.pie`)**: Shows the proportion of orders delivered vs. returned, acting as a quick health check on fulfillment efficiency.
+
 ## ✦ &nbsp; Repository Structure
 
 ```
@@ -267,14 +314,6 @@ AURA-ecommerce-analytics/
 
 <br>
 
-## ✦ &nbsp; How to Run This Project
-
-1. **Database**: Run `Database(create data by sql)/E_COMMERCE_DB_DDL (Create database).sql.sql` on SQL Server to create `E_COMMERCE_DB`, then run `E_COMMERCE_DB_DATA (fil data).sql` to populate it. Create the views using `E_COMMERCE_QUERIERS.sql`.
-2. **Python Analysis**: Open `Python/ecommerce-project.ipynb` in Jupyter Notebook, ensure the SQL Server name matches your local instance (`DESKTOP-UFA9267\SQLEXPRESS` by default), and run all cells.
-3. **Excel**: Open `E_COMMERCE.xlsx` to interact with the Pivot Tables and Dashboard.
-4. **Power BI**: Open `e-commerce clothing.pbix` in Power BI Desktop and refresh the data source to fetch live updates from your SQL Server.
-
-<br>
 
 ## ✦ &nbsp; Author
 
